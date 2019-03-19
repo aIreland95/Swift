@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="llamaSightings" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Llama Sightings" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlW-x1-eMZ">
+                                <rect key="frame" x="15" y="20" width="345" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I saw a llama in the desert. It was crazy. It was blue. It was frightening. I ran away!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eo-GW-5lQ">
+                                <rect key="frame" x="30" y="122" width="315" height="79"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                <color key="textColor" red="0.083868817049760527" green="0.33460168393782386" blue="0.10021375014491646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="36"/>
+                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sighting Date:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2x-ri-vby">
+                                <rect key="frame" x="30" y="264" width="116.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="December 17, 2018" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4HV-01-MKX">
+                                <rect key="frame" x="198" y="264" width="147" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="llamaSight" translatesAutoresizingMaskIntoConstraints="NO" id="Ahr-67-zIH">
+                                <rect key="frame" x="67.5" y="412" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="0Js-9W-gEM"/>
+                                    <constraint firstAttribute="width" constant="240" id="WLI-cO-wZp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.94775544050000005" blue="0.58074191360000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4HV-01-MKX" firstAttribute="centerY" secondItem="q2x-ri-vby" secondAttribute="centerY" id="4MI-Ed-Qmk"/>
+                            <constraint firstItem="MlW-x1-eMZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="55u-jA-XgO"/>
+                            <constraint firstItem="4HV-01-MKX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="q2x-ri-vby" secondAttribute="trailing" constant="10" id="57a-Eq-aBC"/>
+                            <constraint firstItem="4HV-01-MKX" firstAttribute="trailing" secondItem="7eo-GW-5lQ" secondAttribute="trailing" id="5ww-x6-IsA"/>
+                            <constraint firstItem="Ahr-67-zIH" firstAttribute="top" secondItem="q2x-ri-vby" secondAttribute="bottom" constant="127" id="6g3-3N-maZ"/>
+                            <constraint firstItem="MlW-x1-eMZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="H5v-5l-hmP"/>
+                            <constraint firstItem="q2x-ri-vby" firstAttribute="leading" secondItem="7eo-GW-5lQ" secondAttribute="leading" id="P28-RE-9vs"/>
+                            <constraint firstItem="7eo-GW-5lQ" firstAttribute="top" secondItem="MlW-x1-eMZ" secondAttribute="bottom" constant="54" id="aVJ-mD-0Py"/>
+                            <constraint firstItem="q2x-ri-vby" firstAttribute="top" secondItem="7eo-GW-5lQ" secondAttribute="bottom" constant="63" id="geM-mL-rY2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7eo-GW-5lQ" secondAttribute="trailing" constant="30" id="i9y-eU-j7C"/>
+                            <constraint firstItem="MlW-x1-eMZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qgl-xC-fyu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MlW-x1-eMZ" secondAttribute="trailing" constant="15" id="qng-q0-INv"/>
+                            <constraint firstItem="7eo-GW-5lQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="tj4-zR-oqj"/>
+                            <constraint firstItem="Ahr-67-zIH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uYu-Rs-3kl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="128.57142857142858"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="llamaSight" width="400" height="400"/>
+    </resources>
+</document>
