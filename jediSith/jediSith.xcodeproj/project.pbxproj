@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93DA1FB521C803620024EEBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DA1FB421C803620024EEBD /* AppDelegate.swift */; };
+		93DA1FB721C803620024EEBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DA1FB621C803620024EEBD /* ViewController.swift */; };
+		93DA1FBA21C803620024EEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DA1FB821C803620024EEBD /* Main.storyboard */; };
+		93DA1FBC21C803630024EEBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DA1FBB21C803630024EEBD /* Assets.xcassets */; };
+		93DA1FBF21C803630024EEBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DA1FBD21C803630024EEBD /* LaunchScreen.storyboard */; };
+		93DA1FCA21C803630024EEBD /* jediSithTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DA1FC921C803630024EEBD /* jediSithTests.swift */; };
+		93DA1FD521C803630024EEBD /* jediSithUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DA1FD421C803630024EEBD /* jediSithUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93DA1FC621C803630024EEBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93DA1FA921C803620024EEBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93DA1FB021C803620024EEBD;
+			remoteInfo = jediSith;
+		};
+		93DA1FD121C803630024EEBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93DA1FA921C803620024EEBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93DA1FB021C803620024EEBD;
+			remoteInfo = jediSith;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93DA1FB121C803620024EEBD /* jediSith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jediSith.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DA1FB421C803620024EEBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93DA1FB621C803620024EEBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93DA1FB921C803620024EEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93DA1FBB21C803630024EEBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93DA1FBE21C803630024EEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93DA1FC021C803630024EEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DA1FC521C803630024EEBD /* jediSithTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jediSithTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DA1FC921C803630024EEBD /* jediSithTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jediSithTests.swift; sourceTree = "<group>"; };
+		93DA1FCB21C803630024EEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DA1FD021C803630024EEBD /* jediSithUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jediSithUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DA1FD421C803630024EEBD /* jediSithUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jediSithUITests.swift; sourceTree = "<group>"; };
+		93DA1FD621C803630024EEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93DA1FAE21C803620024EEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DA1FC221C803630024EEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DA1FCD21C803630024EEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93DA1FA821C803620024EEBD = {
+			isa = PBXGroup;
+			children = (
+				93DA1FB321C803620024EEBD /* jediSith */,
+				93DA1FC821C803630024EEBD /* jediSithTests */,
+				93DA1FD321C803630024EEBD /* jediSithUITests */,
+				93DA1FB221C803620024EEBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93DA1FB221C803620024EEBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93DA1FB121C803620024EEBD /* jediSith.app */,
+				93DA1FC521C803630024EEBD /* jediSithTests.xctest */,
+				93DA1FD021C803630024EEBD /* jediSithUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93DA1FB321C803620024EEBD /* jediSith */ = {
+			isa = PBXGroup;
+			children = (
+				93DA1FB421C803620024EEBD /* AppDelegate.swift */,
+				93DA1FB621C803620024EEBD /* ViewController.swift */,
+				93DA1FB821C803620024EEBD /* Main.storyboard */,
+				93DA1FBB21C803630024EEBD /* Assets.xcassets */,
+				93DA1FBD21C803630024EEBD /* LaunchScreen.storyboard */,
+				93DA1FC021C803630024EEBD /* Info.plist */,
+			);
+			path = jediSith;
+			sourceTree = "<group>";
+		};
+		93DA1FC821C803630024EEBD /* jediSithTests */ = {
+			isa = PBXGroup;
+			children = (
+				93DA1FC921C803630024EEBD /* jediSithTests.swift */,
+				93DA1FCB21C803630024EEBD /* Info.plist */,
+			);
+			path = jediSithTests;
+			sourceTree = "<group>";
+		};
+		93DA1FD321C803630024EEBD /* jediSithUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93DA1FD421C803630024EEBD /* jediSithUITests.swift */,
+				93DA1FD621C803630024EEBD /* Info.plist */,
+			);
+			path = jediSithUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93DA1FB021C803620024EEBD /* jediSith */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DA1FD921C803630024EEBD /* Build configuration list for PBXNativeTarget "jediSith" */;
+			buildPhases = (
+				93DA1FAD21C803620024EEBD /* Sources */,
+				93DA1FAE21C803620024EEBD /* Frameworks */,
+				93DA1FAF21C803620024EEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jediSith;
+			productName = jediSith;
+			productReference = 93DA1FB121C803620024EEBD /* jediSith.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93DA1FC421C803630024EEBD /* jediSithTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DA1FDC21C803630024EEBD /* Build configuration list for PBXNativeTarget "jediSithTests" */;
+			buildPhases = (
+				93DA1FC121C803630024EEBD /* Sources */,
+				93DA1FC221C803630024EEBD /* Frameworks */,
+				93DA1FC321C803630024EEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93DA1FC721C803630024EEBD /* PBXTargetDependency */,
+			);
+			name = jediSithTests;
+			productName = jediSithTests;
+			productReference = 93DA1FC521C803630024EEBD /* jediSithTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93DA1FCF21C803630024EEBD /* jediSithUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DA1FDF21C803630024EEBD /* Build configuration list for PBXNativeTarget "jediSithUITests" */;
+			buildPhases = (
+				93DA1FCC21C803630024EEBD /* Sources */,
+				93DA1FCD21C803630024EEBD /* Frameworks */,
+				93DA1FCE21C803630024EEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93DA1FD221C803630024EEBD /* PBXTargetDependency */,
+			);
+			name = jediSithUITests;
+			productName = jediSithUITests;
+			productReference = 93DA1FD021C803630024EEBD /* jediSithUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93DA1FA921C803620024EEBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Aaron;
+				TargetAttributes = {
+					93DA1FB021C803620024EEBD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					93DA1FC421C803630024EEBD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 93DA1FB021C803620024EEBD;
+					};
+					93DA1FCF21C803630024EEBD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 93DA1FB021C803620024EEBD;
+					};
+				};
+			};
+			buildConfigurationList = 93DA1FAC21C803620024EEBD /* Build configuration list for PBXProject "jediSith" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93DA1FA821C803620024EEBD;
+			productRefGroup = 93DA1FB221C803620024EEBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93DA1FB021C803620024EEBD /* jediSith */,
+				93DA1FC421C803630024EEBD /* jediSithTests */,
+				93DA1FCF21C803630024EEBD /* jediSithUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93DA1FAF21C803620024EEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DA1FBF21C803630024EEBD /* LaunchScreen.storyboard in Resources */,
+				93DA1FBC21C803630024EEBD /* Assets.xcassets in Resources */,
+				93DA1FBA21C803620024EEBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DA1FC321C803630024EEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DA1FCE21C803630024EEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93DA1FAD21C803620024EEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DA1FB721C803620024EEBD /* ViewController.swift in Sources */,
+				93DA1FB521C803620024EEBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DA1FC121C803630024EEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DA1FCA21C803630024EEBD /* jediSithTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DA1FCC21C803630024EEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DA1FD521C803630024EEBD /* jediSithUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93DA1FC721C803630024EEBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93DA1FB021C803620024EEBD /* jediSith */;
+			targetProxy = 93DA1FC621C803630024EEBD /* PBXContainerItemProxy */;
+		};
+		93DA1FD221C803630024EEBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93DA1FB021C803620024EEBD /* jediSith */;
+			targetProxy = 93DA1FD121C803630024EEBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93DA1FB821C803620024EEBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93DA1FB921C803620024EEBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93DA1FBD21C803630024EEBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93DA1FBE21C803630024EEBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93DA1FD721C803630024EEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93DA1FD821C803630024EEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93DA1FDA21C803630024EEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jediSith/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.jediSith;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93DA1FDB21C803630024EEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jediSith/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.jediSith;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93DA1FDD21C803630024EEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jediSithTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.jediSithTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jediSith.app/jediSith";
+			};
+			name = Debug;
+		};
+		93DA1FDE21C803630024EEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jediSithTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.jediSithTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jediSith.app/jediSith";
+			};
+			name = Release;
+		};
+		93DA1FE021C803630024EEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jediSithUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.jediSithUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jediSith;
+			};
+			name = Debug;
+		};
+		93DA1FE121C803630024EEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jediSithUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaron.jediSithUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jediSith;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93DA1FAC21C803620024EEBD /* Build configuration list for PBXProject "jediSith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DA1FD721C803630024EEBD /* Debug */,
+				93DA1FD821C803630024EEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DA1FD921C803630024EEBD /* Build configuration list for PBXNativeTarget "jediSith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DA1FDA21C803630024EEBD /* Debug */,
+				93DA1FDB21C803630024EEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DA1FDC21C803630024EEBD /* Build configuration list for PBXNativeTarget "jediSithTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DA1FDD21C803630024EEBD /* Debug */,
+				93DA1FDE21C803630024EEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DA1FDF21C803630024EEBD /* Build configuration list for PBXNativeTarget "jediSithUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DA1FE021C803630024EEBD /* Debug */,
+				93DA1FE121C803630024EEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93DA1FA921C803620024EEBD /* Project object */;
+}
